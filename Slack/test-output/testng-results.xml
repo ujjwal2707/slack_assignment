@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Channel_Suite" duration-ms="76822" started-at="2020-05-04T08:17:16Z" finished-at="2020-05-04T08:18:33Z">
+    <groups>
+    </groups>
+    <test name="Channel_Validate" duration-ms="76822" started-at="2020-05-04T08:17:16Z" finished-at="2020-05-04T08:18:33Z">
+      <class name="com.slack.test.Channel_Test">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.slack.test.Channel_Test@7e0babb1]" name="setup" is-config="true" duration-ms="13244" started-at="2020-05-04T13:47:16Z" finished-at="2020-05-04T13:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="create_Channel()[pri:0, instance:com.slack.test.Channel_Test@7e0babb1]" name="create_Channel" duration-ms="49360" started-at="2020-05-04T13:47:30Z" finished-at="2020-05-04T13:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_Channel -->
+        <test-method status="PASS" signature="join_Channel()[pri:0, instance:com.slack.test.Channel_Test@7e0babb1]" name="join_Channel" duration-ms="3255" started-at="2020-05-04T13:48:20Z" depends-on-methods="com.slack.test.Channel_Test.create_Channel" finished-at="2020-05-04T13:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- join_Channel -->
+        <test-method status="PASS" signature="rename_Channel()[pri:0, instance:com.slack.test.Channel_Test@7e0babb1]" name="rename_Channel" duration-ms="3897" started-at="2020-05-04T13:48:23Z" depends-on-methods="com.slack.test.Channel_Test.join_Channel" finished-at="2020-05-04T13:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rename_Channel -->
+        <test-method status="PASS" signature="get_Channels()[pri:0, instance:com.slack.test.Channel_Test@7e0babb1]" name="get_Channels" duration-ms="2566" started-at="2020-05-04T13:48:27Z" depends-on-methods="com.slack.test.Channel_Test.rename_Channel" finished-at="2020-05-04T13:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Channels -->
+        <test-method status="PASS" signature="archive_Channel()[pri:0, instance:com.slack.test.Channel_Test@7e0babb1]" name="archive_Channel" duration-ms="3430" started-at="2020-05-04T13:48:30Z" depends-on-methods="com.slack.test.Channel_Test.get_Channels" finished-at="2020-05-04T13:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- archive_Channel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.slack.test.Channel_Test@7e0babb1]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-04T13:48:33Z" finished-at="2020-05-04T13:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.slack.test.Channel_Test -->
+    </test> <!-- Channel_Validate -->
+  </suite> <!-- Channel_Suite -->
+</testng-results>

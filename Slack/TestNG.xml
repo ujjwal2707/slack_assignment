@@ -1,0 +1,7 @@
+<suite name="Channel_Suite"> verbose="1">
+	<test name="Channel_Validate">
+		<classes>
+			<class name="com.slack.test.Channel_Test"/>
+		</classes>
+	</test>
+</suite>
