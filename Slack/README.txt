@@ -40,3 +40,9 @@ Flow of the Framework
 *Tell the reason of the failure in case of Failure
 //////////////////////////////////////////////
 
+//////////////////////////////////////////////
+How can we run the framework
+
+1) From TestNG.xml file as a suite
+2) From ChannelTest file as TestNg test
+//////////////////////////////////////////////
