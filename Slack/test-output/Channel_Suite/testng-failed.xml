@@ -3,7 +3,7 @@
 <suite name="Failed suite [Channel_Suite]">
   <test name="Channel_Validate">
     <classes>
-      <class name="com.slack.test.Channel_Test"/>
+      <class name="com.slack.Test.ChannelTest"/>
     </classes>
   </test> <!-- Channel_Validate -->
 </suite> <!-- Failed suite [Channel_Suite] -->

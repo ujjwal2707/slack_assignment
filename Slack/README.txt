@@ -40,10 +40,3 @@ Flow of the Framework
 *Tell the reason of the failure in case of Failure
 //////////////////////////////////////////////
 
-//////////////////////////////////////////////
-How to run the framework
-
-1)Can be run as TestNG suite from TestNG.xml file
-2)Can be run as TestNG test
-//////////////////////////////////////////////
-

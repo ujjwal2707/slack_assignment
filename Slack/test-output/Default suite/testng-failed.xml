@@ -3,14 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.slack.test.Channel_Test">
-        <methods>
-          <include name="join_Channel"/>
-          <include name="rename_Channel"/>
-          <include name="get_Channels"/>
-          <include name="create_Channel"/>
-        </methods>
-      </class> <!-- com.slack.test.Channel_Test -->
+      <class name="com.slack.Test.ChannelTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.slack.Test.ChannelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="joinChannel"/>
+          <include name="setup"/>
+          <include name="getChannels"/>
+          <include name="createChannel"/>
+          <include name="renameChannel"/>
+          <include name="archiveChannel"/>
+        </methods>
+      </class> <!-- com.slack.Test.ChannelTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
